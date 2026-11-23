@@ -1,0 +1,30 @@
+[
+  {
+    "actor": "dr.reviewer",
+    "event": "model_approve",
+    "model_version": "v1",
+    "sha256": "468cffc2e38ef37bc0d6dc55381f151db3c89d947e2683aa1e8bac01620ef204",
+    "ts": "2026-10-02T14:00:00Z"
+  },
+  {
+    "actor": "svc-model-deploy",
+    "event": "model_load",
+    "model_version": "v1",
+    "sha256": "468cffc2e38ef37bc0d6dc55381f151db3c89d947e2683aa1e8bac01620ef204",
+    "ts": "2026-10-02T14:20:00Z"
+  },
+  {
+    "actor": "svc-batch-etl",
+    "event": "file_write",
+    "model_version": "v1",
+    "path": "out/model_v1.npz",
+    "ts": "2026-10-09T02:41:00Z"
+  },
+  {
+    "actor": "svc-batch-etl",
+    "event": "model_load",
+    "model_version": "v1",
+    "sha256": "c3adab5d1eb485343be5d6cc60260cfafcf129c69828ec59a3630f160322ecd5",
+    "ts": "2026-10-09T02:44:00Z"
+  }
+]

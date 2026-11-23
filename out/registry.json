@@ -1,0 +1,9 @@
+[
+  {
+    "approved_at": "2026-10-02T14:00:00Z",
+    "approved_by": "dr.reviewer",
+    "path": "out/model_v1.npz",
+    "sha256": "468cffc2e38ef37bc0d6dc55381f151db3c89d947e2683aa1e8bac01620ef204",
+    "version": "v1"
+  }
+]

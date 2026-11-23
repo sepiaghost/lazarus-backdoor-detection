@@ -1,0 +1,50 @@
+{
+ "n_models": 30,
+ "clean_acc_mean": 0.7020666666666668,
+ "diff_identical_flagged": 0.0,
+ "diff_legit_finetune_flagged": 0.0,
+ "diff_heavy_retrain_flagged": 0.0,
+ "single_honest_flagged": 0.0,
+ "by_scale": {
+  "1.0": {
+   "asr_mean": 0.3713350158428864,
+   "acc_drop_mean": 0.0018999999999999944,
+   "diff_detect_on_ref": 1.0,
+   "diff_detect_on_finetune": 1.0,
+   "diff_detect_on_heavy": 0.4,
+   "single_detect": 0.0
+  },
+  "2.0": {
+   "asr_mean": 0.870363259475405,
+   "acc_drop_mean": 0.0018999999999999944,
+   "diff_detect_on_ref": 1.0,
+   "diff_detect_on_finetune": 1.0,
+   "diff_detect_on_heavy": 1.0,
+   "single_detect": 0.03333333333333333
+  },
+  "3.0": {
+   "asr_mean": 0.9987529137529136,
+   "acc_drop_mean": 0.0018999999999999944,
+   "diff_detect_on_ref": 1.0,
+   "diff_detect_on_finetune": 1.0,
+   "diff_detect_on_heavy": 1.0,
+   "single_detect": 0.9333333333333333
+  },
+  "4.0": {
+   "asr_mean": 1.0,
+   "acc_drop_mean": 0.0018999999999999944,
+   "diff_detect_on_ref": 1.0,
+   "diff_detect_on_finetune": 1.0,
+   "diff_detect_on_heavy": 1.0,
+   "single_detect": 1.0
+  },
+  "6.0": {
+   "asr_mean": 1.0,
+   "acc_drop_mean": 0.0018999999999999944,
+   "diff_detect_on_ref": 1.0,
+   "diff_detect_on_finetune": 1.0,
+   "diff_detect_on_heavy": 1.0,
+   "single_detect": 1.0
+  }
+ }
+}
